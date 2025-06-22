@@ -10,11 +10,12 @@ body{
 #link ul{
     margin: 0 ;
     padding: 0 ;
+    display: flex;
+    justify-content: center;
 }
 #link li{
     list-style: none;
-    display: inline-block;
-    width: 10%;
+    width: 10px;
     min-width: 90px;
 }
 #link li:not(:last-child){
@@ -31,7 +32,7 @@ body{
 .frame{
     margin: 10px;
     display: flex;
-    background-color: #fff;
+    background-color: lemonchiffon;
     border-radius: 10px;
     padding: 30px;
     justify-content: center;
@@ -63,4 +64,10 @@ body{
 }
 .topic h2{
     margin: 0;
+}
+.GQuuuuuuX{
+    padding: 30px;
+    position: fixed;
+    top: 4%;
+    right: 4%;
 }
