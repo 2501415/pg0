@@ -73,6 +73,9 @@ main{
     text-align: center;
     line-height: 60px;
 }
+.item h3:hover{
+    color: lemonchiffon;
+}
 .top{
     margin-left: 30px;
 }
